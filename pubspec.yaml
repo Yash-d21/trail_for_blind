@@ -1,0 +1,29 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.11.0+2  
+  image_picker: ^1.0.7  
+  google_ml_kit: ^0.20.0  
+  audioplayers: ^6.4.0  
+  flutter_tts: ^4.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets:
+    - assets/camera.webp
+    - assets/image.png
+    - assets/mic.png
+    - assets/settings.webp

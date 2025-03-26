@@ -1,2 +1,16 @@
 # trail_for_blind
-Trail is an AI-powered app for the visually impaired, offering text reading, object recognition, navigation, and environment description. Built with Flutter, Google ML Kit, Firebase, and Google APIs, it provides OCR, voice commands, facial recognition, and multi-language support to enhance accessibility and independence.
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
