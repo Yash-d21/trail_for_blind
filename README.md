@@ -1,35 +1,51 @@
-#Trail - AI Assistance for the Visually Impaired
+# **Trail** 🚀
 
-Trail is an AI-powered mobile app designed to assist visually impaired individuals by reading text aloud, identifying objects, providing navigation guidance, and describing surroundings in real-time. Built using Flutter, Google ML Kit, and Firebase, Trail enhances accessibility and independence.
+**An AI-powered accessibility app for the visually impaired, developed for GSoC 2025.**
 
-#Features
+## **Overview**
+Trail is a mobile app that helps visually impaired individuals navigate the world with ease. It leverages AI and Google-powered modules to provide real-time text reading, object recognition, facial detection, navigation assistance, and environment description.
 
-Document Reader – Extracts and reads text using OCR.
+## **Features**
+- 📖 **Document Reader** – Reads text from images using OCR (Google Vision API)
+- 🔍 **Object Recognition** – Identifies objects in real time with ML Kit / TensorFlow Lite
+- 🗣 **Voice Commands** – Hands-free interaction via Google Assistant integration
+- 🧭 **Path Finder** – Navigation assistance using Google Maps API
+- 🎭 **Facial Recognition** – Identifies people and announces names
+- 🌍 **Multi-Language Support** – Uses Google Translate for accessibility
 
-Object Recognition – Identifies objects in the surroundings.
+## **Technologies Used**
+- **Frontend**: Flutter
+- **AI/ML**: Google ML Kit, TensorFlow Lite
+- **Backend**: Firebase Firestore, Google Cloud Functions
+- **Speech Processing**: Google Text-to-Speech & Speech-to-Text
+- **Navigation**: Google Maps API
+- **Authentication**: Firebase Auth
 
-Facial Recognition – Detects and announces known faces.
+## **Installation**
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/trail.git
 
-Environment Description – Captures and describes the environment.
+# Navigate into the project folder
+cd trail
 
-Path Finder – Provides real-time navigation.
+# Install dependencies
+flutter pub get
 
-Voice Commands – Allows interaction through speech.
+# Run the app
+flutter run
+```
 
-Multi-Language Support – Uses Google Translate for accessibility.
+## **Future Development**
+- 🔗 Integration with accessibility APIs for deeper system-wide support
+- 📢 Advanced AI-driven voice assistant for hands-free interaction
+- 📊 Enhanced analytics to track user engagement and app performance
 
-Real-Time AI Assistance – Processes user input quickly for seamless assistance.
+## **Contributing**
+We welcome contributions! Feel free to fork the repository, raise issues, and submit pull requests. 🙌
 
-#Tech Stack
+## **License**
+This project is licensed under the **MIT License**.
 
-Frontend: Flutter
-
-AI & ML Models: Google ML Kit, TensorFlow Lite
-
-Backend: Firebase Firestore, Google Cloud Functions
-
-APIs: Google Vision API, Google Maps API, Google Text-to-Speech & Speech-to-Text
-
-Contribution & Development
-
-This project is being developed as part of Google Summer of Code (GSoC) 2025. Contributions are welcome! Feel free to fork this repo, open issues, and submit pull requests.
+---
+**Made with ❤️ for GSoC 2025**
