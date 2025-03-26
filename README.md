@@ -24,7 +24,7 @@ Trail is a mobile app that helps visually impaired individuals navigate the worl
 ## **Installation**
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/trail.git
+git clone https://github.com/yash-d21/trail.git
 
 # Navigate into the project folder
 cd trail
